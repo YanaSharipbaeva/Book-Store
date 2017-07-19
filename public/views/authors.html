@@ -1,0 +1,22 @@
+<div class="info-wrapper">
+    <div ng-repeat="author in authors" >
+        <p style="display: inline-block">
+
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle author-btn" type="button" data-toggle="dropdown">{{author.author_name}}
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="author-dropdown-title" href="#!/authors/{{author.author_id}}">{{author.author_name}}</a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li ng-repeat="book in books" ng-if="book.author_id === author.author_id">
+
+                            <a href="#!/books/{{book.book_id}}">{{book.title}}</a>
+                        </li>
+                    </ul>
+            </div>
+        </p>
+    </div>
+</div>
+

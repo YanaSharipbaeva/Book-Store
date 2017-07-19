@@ -1,0 +1,54 @@
+.author-img {
+    height: auto;
+    width: 100%;
+    @include breakpoint(tablet) {
+
+    }
+}
+
+.author-info {
+    width: 100%;
+    padding: 15px;
+    @include breakpoint(tablet) {
+      width: 50%;
+      display: inline-block;
+
+    }
+}
+
+.author-info__image {
+    width: 100%;
+    padding: 15px;
+    float: left;
+    @include breakpoint(tablet) {
+      width: 50%;
+      display: inline-block;
+    }
+}
+
+.author-btn {
+    background: none;
+    border:0;
+    border-radius: 0;
+    color:#2e6da4;
+    font-weight: 500;
+    &:hover {
+        background: none;
+        color:#2e6da4;
+        border-bottom: 2px solid #2e6da4;
+        margin-bottom: -2px;
+
+    }
+}
+
+.author-name {
+    color:#000;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.dropdown-menu .author-dropdown-title {
+    font-weight: bold;
+    text-align: center;
+}

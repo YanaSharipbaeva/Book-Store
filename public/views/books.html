@@ -1,0 +1,10 @@
+<div ng-repeat="book in books" class="row">
+    <div class="col-md-6 col-md-offset-4">
+        <p style="display: inline-block">
+            <a class="author-name" href="#!/authors/{{book.author_id}}">{{book.author_name}}:</a>
+        </p>
+        <p style="display: inline-block">
+            <a class="book-name" href="#!/books/{{book.book_id}}">"{{book.title}}"</a>
+        </p>
+    </div>
+</div>

@@ -1,0 +1,158 @@
+ [ {
+        "author": [
+              {
+              "author_name":"Stephen King",
+              "bio": "Stephen Edwin King was born the second son of Donald and Nellie Ruth Pillsbury King. ",
+              "author_id":"1",
+               "author_imageUrl":"img/king.jpg"
+              }
+        ],
+
+        "book": [
+            {
+              "book_id": "1",
+              "title":"The Shining",
+              "genre":"horror novel",
+              "info":"Jack Torrance's new job at the Overlook Hotel is the perfect chance for a fresh start. As the off-season caretaker at the atmospheric old hotel, he'll have plenty of time to spend reconnecting with his family and working on his writing. But as the harsh winter weather sets in, the idyllic location feels ever more remote...and more sinister. And the only one to notice the strange and terrible forces gathering around the Overlook is Danny Torrance, a uniquely gifted five-year-old.",
+              "author_name":"Stephen King",
+              "author_id":"1",
+              "book_imageUrl": "img/shining.jpg"
+            },
+            {
+              "book_id":"2",
+              "author_name":"Stephen King",
+              "author_id":"1",
+              "title": "It",
+              "genre":"novel",
+              "info":"To the children, the town was their whole world. To the adults, knowing better, Derry, Maine was just their home town: familiar, well-ordered for the most part. A good place to live.",
+              "book_imageUrl": "img/it.jpg"
+            }
+        ]
+    },
+    {
+        "author": [
+              {
+                "author_name":"Herman Melville",
+                "bio": "Herman Melville was an American novelist, short story writer, essayist, and poet.",
+                "author_id":"2",
+                "author_imageUrl":"img/herman-melville.jpg"
+
+              }
+        ],
+
+        "book": [
+            {
+                "book_id": "3",
+                "author_name":"Herman Melville",
+                "author_id":"2",
+                "title":"Moby-Dick or, The Whale",
+                "genre":"novel",
+                "info":"So begins Herman Melville's masterpiece, one of the greatest works of imagination in literary history.",
+                "book_imageUrl": "img/moby.png"
+            },
+            {
+                "book_id":"4",
+                "author_name":"Herman Melville",
+                "author_id":"2",
+                "title": "Bartleby the Scrivener",
+                "genre":"mistic",
+                "info":"Academics hail it as the beginning of modernism, but to readers around the world—even those daunted by Moby-Dick—Bartleby the Scrivener is simply one of the most absorbing and moving novellas ever.",
+                "book_imageUrl": "img/barleby.jpg"
+            }
+        ]
+    },
+    {
+        "author": [
+              {
+                  "author_name":"Terry Pratchett",
+                  "bio": "Sir Terry Pratchett sold his first story when he was thirteen, which earned him enough money to buy a second-hand typewriter. His first novel, a humorous fantasy entitled The Carpet People, appeared in 1971 from the publisher Colin Smythe.",
+                  "author_id":"3",
+                  "author_imageUrl":"img/pratchett.jpg"
+              }
+        ],
+
+        "book": [
+              {
+                  "book_id": "5",
+                  "author_name":"Terry Pratchett",
+                  "author_id":"3",
+                  "title":"The Color of Magic (Discworld #1)",
+                  "genre":"novel",
+                  "info":"Terry Pratchett's profoundly irreverent, bestselling novels have garnered him a revered position in the halls of parody next to the likes of Mark Twain, Kurt Vonnegut, Douglas Adams, and Carl Hiaasen.",
+                  "book_imageUrl":"img/diskworld.jpg"
+              },
+              {
+                  "book_id":"6",
+                  "author_name":"Terry Pratchett",
+                  "author_id":"3",
+                  "title": "The Light Fantastic",
+                  "genre":"novel",
+                  "info":"The Light Fantastic is a comic fantasy novel by Terry Pratchett, the second of the Discworld series. It was published on June 2, 1986, the first printing being of 1,034 copies.",
+                  "book_imageUrl":"img/light.jpg"
+              }
+        ]
+    },
+    {
+        "author": [
+              {
+                  "author_name":"Jack London",
+                  "bio": "Jack London was an American novelist, journalist, social-activist and short-story writer whose works deal romantically with elemental struggles for survival. ",
+                  "author_id":"4",
+                  "author_imageUrl":"img/JackLondon.jpg"
+              }
+        ],
+
+        "book": [
+              {
+                  "book_id": "7",
+                  "author_name":"Jack London",
+                  "author_id":"4",
+                  "title":"The Call of the Wild",
+                  "genre":"novel",
+                  "info":"Rediscover Jack London’s beloved classic in this unique hardbound edition. First published as a serial in the Saturday Evening Post in 1903, The Call of the Wild has never been out of print.",
+                  "book_imageUrl":"img/call.jpg"
+              },
+            {
+                  "book_id":"8",
+                  "author_name":"Jack London",
+                  "author_id":"4",
+                  "title": "Songs of Labor and Other Poems",
+                  "genre":"novel",
+                  "info":" As I stand and listen, I can hear her song-birds calling, See her green leaves glisten! Thus again my songs I sing thee, Now the spell is broken;",
+                  "book_imageUrl":"img/songs.jpg"
+            }
+        ]
+    },
+    {
+         "author": [
+               {
+                   "author_name": "Ajzek Azimov",
+                   "bio": "Sir Terry Pratchett sold his first story when he was thirteen, which earned him enough money to buy a second-hand typewriter. His first novel, a humorous fantasy entitled The Carpet People, appeared in 1971 from the publisher Colin Smythe.",
+                   "author_id": "5",
+                   "author_imageUrl":"img/IsaacAsimov.jpg"
+
+               }
+         ],
+         "book": [
+               {
+                   "book_id": "9",
+                   "author_name": "Ajzek Azimov",
+                   "author_id": "5",
+                   "title": "I, Robot",
+                   "genre": "novel",
+                   "info": "he three laws of Robotics: 1) A robot may not injure a human being or, through inaction, allow a human being to come to harm.",
+                   "book_imageUrl":"img/robot.jpeg"
+               },
+               {
+                   "book_id": "10",
+                   "author_name": "Ajzek Azimov",
+                   "author_id": "5",
+                   "title": "Caves of Steel (The Robot Series Book 1)",
+                   "genre": "novel",
+                   "info": "A millennium into the future two advancements have altered the course of human history:  the colonization of the galaxy and the creation of the positronic brain.",
+                   "book_imageUrl":"img/robot.jpg"
+               }
+          ]
+    }
+ ]
+

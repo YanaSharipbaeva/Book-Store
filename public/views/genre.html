@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <p>Here are list of books by genre: <a href="">{{bookGenre}}</a></p>
+        <ul>
+            <li ng-repeat="book in genreBooks">
+                <a class="author-name" href="#!/authors/{{book.author_id}}">{{book.author_name}}:</a>
+                <a class="book-name" href="#!/books/{{book.book_id}}">"{{book.title}}"</a>
+            </li>
+        </ul>
+    </div>
+</div>

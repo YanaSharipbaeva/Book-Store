@@ -1,0 +1,13 @@
+<div class="author-info__image">
+    <img class="author-img" src="{{author.author_imageUrl}}" alt="">
+</div>
+<div class="author-info">
+    <p><strong>{{author.author_name}}</strong></p>
+    <p>{{author.bio}}</p>
+    <ul ng-repeat="book in authorsBooks">
+        <li><a href="!#/books/{{book.book_id}}">{{book.title}}</a></li>
+    </ul>
+</div>
+
+
+

@@ -1,0 +1,31 @@
+img {
+  height: auto;
+  width: 100%;
+}
+.book-info {
+    width: 100%;
+    padding: 15px;
+    @include breakpoint(tablet) {
+      width: 50%;
+      display: inline-block;
+    }
+}
+
+.book-info__image {
+    width: 100%;
+    padding: 15px;
+
+    @include breakpoint(tablet) {
+        width: 50%;
+        display: inline-block;
+        float: left;
+    }
+}
+
+.book-name {
+    font-size: 16px;
+    color: #265dcd;
+}
+
+
+
